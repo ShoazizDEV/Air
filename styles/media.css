@@ -1,0 +1,81 @@
+@media (max-width: 992px){
+    .intro__box{
+        flex-direction: column;
+    }
+    .iphone{
+        flex-wrap: wrap;
+    }
+    .iphone__block{
+        margin-bottom: 20px;
+    }
+    .intro__box-text{
+        margin: 25px 0px;
+    }
+    .check{
+        display: none;
+    } 
+}
+@media (max-width: 700px) {
+    .header__box-title{
+        font-size: 70px !important;
+    }
+}
+@media (max-width:576px){
+    .intro__box-text{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .cards{
+        display: flex;
+    }
+    .card__img{
+        margin-right: 10px !important;
+    }
+    .iphone{
+        margin: 0 10px;
+    }
+} 
+@media (max-width:553px){
+    .intro__box-img:nth-child(2){
+        width: 400px;
+    }
+    .card__img:nth-child(1){
+        margin: 0 10px !important;
+    }
+}
+@media (max-width:537px){
+    .footer__box{
+        flex-direction: column;
+    }
+    .list{
+        margin: 10px 0;
+    }
+}
+@media (max-width:450px){
+    .intro__box-img:nth-child(3){
+        width: 200px;
+    }
+    .intro__box-img:nth-child(1){
+        width: 300px;
+    }
+    .intro__box-img:nth-child(2){
+        width: 300px;
+    }
+    .header__box-title{
+        font-size: 60px !important;
+    }
+}
+@media (max-width:385px){
+    .list{
+        flex-direction: column;
+    }
+    .item{
+        margin-right: 30px;
+    }
+    .header__nav-left{
+        justify-content: center !important;
+    }
+    .header__box-title{
+        font-size: 40px !important;
+    }
+}

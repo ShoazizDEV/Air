@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{
+    background: #151515;
+}
+.header-top{
+    background: #282828;
+}
+.header__nav-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.item{
+    margin-left: 30px;
+}
+.link{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.header__left{
+    padding: 6px 0px;
+}
+.icons{
+    font-size: 20px;
+    color: #fff;
+}
+.search{
+    margin-right: 25px;
+}
+
+/* header__body */
+
+.header__body{
+    background: url(../images/Header.png) no-repeat center/cover;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header__box-title{
+    font-family: "Prosto One";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.header__box-button{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px 14px;
+    background: #fff;
+    border-radius: 10px;
+    color: black;
+}
+.header__box-button span{
+    font-size: 15px;
+}
+
+/* main */
+.intro__box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro__box-text{
+    width: 538px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    color: #fff;
+}
+#text{
+    width: 333px;
+    text-align: end;
+}
+#text-2{
+    width: 333px;
+    text-align: start;
+}
+.check{
+    color: #fff;
+}
+
+/* section__info */
+
+.iphone{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.iphone__block{
+    width: 255px;
+    border: 15px solid #fff;
+    background: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.iphone__block-title{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.iphone__block-img{
+    padding: 10px 0px;
+}
+.iphone__block-text{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.btn{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 7px 57px;
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* footer */
+
+.footer{
+    background: #282828;
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+}
+.card__img{
+    margin-right: 25px;
+}
